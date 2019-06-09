@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:id = "@+id/zaego_search">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchbar1"
+            android:layout_margin="5dp"
+            android:layout_gravity="center|top"
+            android:src="@drawable/search"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation = "horizontal">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:id = "@+id/zaego_search_b1"
+                android:text = "거리순"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:textSize="30sp"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:id = "@+id/zaego_search_b2"
+                android:layout_gravity="center"
+                android:text = "수량별"
+                android:layout_margin="3dp"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text = "항목1"
+            android:textSize="25sp"
+            android:id="@+id/zaego_search_b3"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text = "항목2"
+            android:textSize="25sp"
+            android:id="@+id/zaego_search_b4"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text = "항목3"
+            android:textSize="25sp"
+            android:id="@+id/zaego_search_b5"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
